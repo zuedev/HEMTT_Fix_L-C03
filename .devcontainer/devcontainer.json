@@ -1,0 +1,14 @@
+{
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {},
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/rust:1": {
+      "targets": [
+        "x86_64-pc-windows-gnu"
+      ]
+    }
+  }
+}
